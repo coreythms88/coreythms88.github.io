@@ -1,7 +1,33 @@
-*{
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+* {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
-h1{
-	background-color: blue;
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+	font-size: 20px;
 }
+
+a {
+	color: red;
+	text-decoration: none;
+	
+}
+
+header {
+	padding: 40px;
+}
+
+nav {
+	text-align: center;
+}
+
+nav a {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
