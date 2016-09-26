@@ -13,21 +13,75 @@ body {
 }
 
 a {
-	color: red;
+	color: black;
 	text-decoration: none;
-	
-}
-
-header {
-	padding: 40px;
-}
-
-nav {
-	text-align: center;
-}
-
-nav a {
 	margin-left: 10px;
 	margin-right: 10px;
 }
 
+a:hover{
+	color:red;
+}
+
+header{
+	margin-bottom: 20px;
+	background-color: #eeeeee;
+}
+
+nav {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: right;
+	margin-right: 20px;
+}
+
+nav a {
+	color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+nav a:hover {
+	color: red;
+}
+
+p {
+	width: 720px;
+}
+
+img{
+	width: 720px;
+}
+
+footer{
+	padding:20px;
+	background-color: #eeeeee;
+	text-align: center;
+	clear: both;
+}
+
+article{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#wrapper{
+	margin:1080px;
+	margin left: auto;
+}
+
+main{
+	float: left;
+}
+
+aside{
+	float: right;
+	padding-top: 20px;
+	text-align: center;
+	margin-right: 200px;
+}
+
+h3 {
+	padding-bottom: 15px; 
+}
